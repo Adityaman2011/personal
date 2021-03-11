@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+
+}
+
+#welcome {
+    background: linear-gradient(#65c98d, #3b46a8);
+    z-index: 1;
+}
+
+#menu {
+    position: absolute;
+    list-style: none;
+    right: 20px;
+    z-index: 2;
+}
+
+#img1 {
+    resize: both;
+    height: 200px;
+    width: 200px;
+
+}
+.menu_class{
+    margin: 20px;
+    float: right;
+    cursor: pointer;
+    
+}
+
+.menu_clas:hover{
+    background-color:aquamarine;
+}
+html{
+ scroll-behavior: smooth;   
+    
+}
